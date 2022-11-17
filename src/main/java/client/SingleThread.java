@@ -32,7 +32,7 @@ public class SingleThread implements Runnable {
 
     @Override
     public void run() {
-        String url = "http://localhost:8080/quicProject_war_exploded/prime";
+        String url = "http://35.90.162.215:8080/quicProject_war/prime";
        // Random random = new Random();
 
         int curSuccess = 0;
